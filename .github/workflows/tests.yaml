@@ -21,6 +21,7 @@ jobs:
           - {name: '3.6', python: '3.6', os: ubuntu-latest, tox: py36}
           - {name: 'PyPy', python: pypy3, os: ubuntu-latest, tox: pypy3}
           - {name: Style, python: '3.8', os: ubuntu-latest, tox: style}
+          - {name: Typing, python: '3.8', os: ubuntu-latest, tox: typing}
           - {name: Docs, python: '3.8', os: ubuntu-latest, tox: docs}
           - {name: Windows, python: '3.8', os: windows-latest, tox: py38}
           - {name: Mac, python: '3.8', os: macos-latest, tox: py38}
